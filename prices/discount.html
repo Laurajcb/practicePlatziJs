@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discounts and Prices percentages</title>
+</head>
+<body>
+   <header>
+    <h1>
+        Percentages and Discounts 
+    </h1>
+    <p>This is the second workshop of JS by Platzi</p>
+   </header>
+   <section>
+        <h2>Let's calculate the total price to pay with discount</h2>
+        <form>
+            <label for="inputPrice">Type the total price of your product:</label>
+            <input id="inputPrice" type="number"/>
+
+            <label for="inputDiscount">Type the discount of your product:</label>
+            <input id="inputDiscount" type="number"/>
+
+            <label for="inputCupon"> Type your cupon's name:</label>
+            <input id="inputCupon" type="string">
+            
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Caculate the total price to pay
+            </button>
+
+            <p id="resultPrice"></p>
+        </form>
+   </section>
+    <script src="./discount.js"></script>
+</body>
+</html>
