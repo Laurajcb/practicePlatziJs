@@ -1,0 +1,58 @@
+html {
+    font-family: sans-serif;
+    color: navy;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(214, 227, 239);
+    padding: 2px 6px;
+    font-style: italic;
+    border-radius: 25px;
+    display: flex;
+}
+
+.imgRobot {
+    height: 150px;
+    width: 150px;
+}
+
+.botText {
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.section {
+    margin: 4px 8px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 { 
+    flex-direction: row;
+}
+
+.section-cupons-form { 
+    display: flex;
+}
+
+.form {
+    flex-direction: row;
+    margin: 2px 10px;
+    height: 150px;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+.cupons {
+    flex-direction: column;
+    
+}
+
+ul li {
+    margin: 2px 10px;
+    list-style: none;
+}

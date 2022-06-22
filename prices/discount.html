@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discounts and Prices percentages</title>
+    <link rel="stylesheet" href="./discount.css">
+    <title>HeplBot</title>
 </head>
+
 <body>
-   <header>
-    <h1>
-        Percentages and Discounts 
-    </h1>
-    <p>This is the second workshop of JS by Platzi</p>
-   </header>
-   <section>
+    <header>
+        <img class="imgRobot" src="../prices/utils/robot.png">
+        <div class="botText">
+            <h1>
+                I'm your assistant Robot, Hi 🔧
+            </h1>
+            <p>I'll do the math for you!</p>
+        </div>
+    </header>
+
+    <section class="section" id="format">
         <h2>Let's calculate the total price to pay with discount</h2>
-        <form>
-            <label for="inputPrice">Type the total price of your product:</label>
-            <input id="inputPrice" type="number"/>
+        <section class="section-cupons-form">
+            <div class="cupons">Available cupons for you today!
+                <ul>
+                    <li class="cupons-list">
+                        <img src="./assets/cupons.png" alt="Cupon">
+                    </li>
+                   
+                </ul>
+            </div>
+            <form class="form">
+                <div class="form-group">
+                    <label for="inputPrice">Type the total price of your product:</label>
+                    <input id="inputPrice" type="number" />
+                </div>
 
-            <label for="inputDiscount">Type the discount of your product:</label>
-            <input id="inputDiscount" type="number"/>
+                <div class="form-group">
+                    <label for="inputDiscount">Type the discount of your product:</label>
+                    <input id="inputDiscount" type="number" />
+                </div>
 
-            <label for="inputCupon"> Type your cupon's name:</label>
-            <input id="inputCupon" type="string">
-            
-            <button type="button" onclick="onClickButtonPriceDiscount()">
-                Caculate the total price to pay
-            </button>
+                <div class="form-group">
+                    <label for="inputCupon"> Type your cupon's name:</label>
+                    <input id="inputCupon" type="string">
+                </div>
 
-            <p id="resultPrice"></p>
-        </form>
-   </section>
+                <button type="button" onclick="onClickButtonPriceDiscount()">
+                    Caculate the total price to pay
+                </button>
+
+                <p id="resultPrice"></p>
+            </form>
+        </section>
+    </section>
     <script src="./discount.js"></script>
 </body>
+
 </html>
