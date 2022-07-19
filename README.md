@@ -8,7 +8,15 @@
 - Third step: create functions
 - Fourth step: integrate JS with HTML
 
-## Worrkshop 2 Prices and Discounts
+## Workshop 2 Prices and Discounts
+
+- First step: define the formulas
+- Second step: implement the formulas in JavaScript
+- Third step: create functions
+- Fourth step: integrate JS with HTML
+
+
+## Workshop 3 average, mode and median
 
 - First step: define the formulas
 - Second step: implement the formulas in JavaScript
