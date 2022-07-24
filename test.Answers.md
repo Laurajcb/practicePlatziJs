@@ -48,7 +48,7 @@ const lastName = "Callejas";
 const PlatziUserName = "Laura Callejas B"; 
 let age = 26; 
 const email = "callejaslaura96@mail.com"; 
-const adult = true;
+const IsAdult = true;
 let savings = 500; 
 let debts = 50; 
 
@@ -383,7 +383,7 @@ console.log(result);
 
 
 ```
-4️⃣ Create a function that can receive any object as a parameter and print all its elements one by one 
+- 4️⃣ Create a function that can receive any object as a parameter and print all its elements one by one 
 (it is not worth printing the entire object).
 
 A: 
