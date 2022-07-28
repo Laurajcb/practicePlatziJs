@@ -322,7 +322,7 @@ A:
 let result = window.prompt("let's do some math, How much is 2 + 2");
 if (result == 4) {
   alert("Great job!");
-}else {
+} else {
   alert("Try again");
 };
 
