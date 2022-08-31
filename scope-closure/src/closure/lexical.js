@@ -1,3 +1,8 @@
+
+/* Entorno lexico: es un objeto que tienen los contextos de ejecucion donde se 
+  almacenan los nombres de las variables que existen dentro de una function 
+  y los varoles actuales que tienen 
+*/ 
 const myGlobal = 0;
 
 function myFunction() {
