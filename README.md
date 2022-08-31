@@ -1,4 +1,4 @@
-# Practice js whit Platzi
+# Practice js with Platzi
 
 - Is a serie of JavaScript exercises to improve your skills in this programming languague.
 
