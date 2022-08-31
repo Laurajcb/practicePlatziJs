@@ -7,7 +7,9 @@ function fruits() {
     console.log(fruit3);
   }
   console.log(fruit);
-
+  console.log(fruit2); //ReferenceError: fruit2 is not defined
+  console.log(fruit3); // bc this is variable es block scope and this conse.log is in fuction scope
 }
 
 fruits();
+

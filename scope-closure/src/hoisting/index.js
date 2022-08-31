@@ -15,3 +15,5 @@ dogName();
 // output : The dog name is Rex
 // this occur bc the var of the line 12 is elevated in order to get the value 
 // if we just declare nameOfDog the value will be undefined
+
+nameOfDog("Elmo"); function nameOfDog(name) { console.log(name); };
